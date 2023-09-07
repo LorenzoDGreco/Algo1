@@ -1,0 +1,8 @@
+Ciencia de datos:
+
+Libreria para C.D:			- Promedios
+					- Desvío estándar
+Juan,Cacona líquida y verde,X
+Rosa,Tos,""
+Sonia,Cacona líquida y verde,X
+

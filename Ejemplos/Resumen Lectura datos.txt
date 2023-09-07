@@ -1,0 +1,66 @@
+Corte de control: Sacar Sub Totales
+					2 Niveles
+01,Juan,2500  }				J -> 2500
+01,Rosa,1300  }  --> 01 = 7000		R -> 4500
+01,Rosa,3200  }				
+02,Juan,1800   }			J -> 1800
+02,Martin,2700 }  --> 02 = 8000		M -> 2700
+02,Rosa,3500   }			R -> 3500
+                     ----------
+                    Total : 15000
+
+Merge: Mezclar distintos archivos. En orden
+
+01,Juan,2500	01,Pedro,1750
+01,Rosa,1300	01,Sonia,2340
+01,Rosa,3200	02,Noelia,3400
+02,Juan,1800
+02,Martin,2700
+02,Rosa,3500
+
+Juan
+Pedro
+Rosa
+Rosa
+Sonia
+--- corta por día
+.. etc
+
+Apareo:
+
+
+   Sueldos		Novedades (Aumentos)   M -> Modifica, B -> Borra, A -> Añade 
+123,Juan,48329		123,Juan,65000,M
+162,Rosa,90305		162,Rosa,B
+190,Pedro,85208		222,Noelia,55000,A
+207,Sonia,65322
+
+123,Juan,48329	Son iguales??  123,Juan,65000,M
+	    Si y me dice que es M
+Sueldos_actualizados
+123,Juan,65000
+
+162,Rosa,90305	Son iguales?	162,Rosa,B
+		Si pero dice B
+No lo añade
+
+190,Pedro,85208	Son iguales?   222,Noelia,55000,A
+		no, Pedro es menor
+Anoto Pedro
+
+207,Sonia,65322 Son iguales?  222,Noelia,55000,A
+               no, sonia es menor
+Anoto Sonia
+
+Me queda 222,Noelia,55000,A
+Dice A de añandir
+
+Anoto Noelia
+
+Entonces Sueldos_Actualizados es:
+
+	Sueldos_actualizados
+123,Juan,65000
+190,Pedro,85208
+207,Sonia,65322
+222,Noelia,55000

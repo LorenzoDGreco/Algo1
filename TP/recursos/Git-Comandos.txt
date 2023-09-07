@@ -1,0 +1,33 @@
+#Configuraciones iniciales
+git config --global user.name "Lorenzo Greco"
+git config --global user.mail lorenzodgreco@hotmail.com
+
+#Navegar entre carpetas
+cd .. 
+cd "nombre carpeta"
+
+#Nombra carpetas
+ls 
+
+#Obtener el repositorio por primera vez
+git clone "Link al repositorio"
+
+#El estado de los archivos locales - github
+git status
+
+#Añadir del workspace al git
+git add . 
+
+#Añade un comentario a toda la subida de los archivos
+git commit -m 'Comentario'
+
+#Subir del git al github (TENER EN CUENTA QUE SIEMPRE ANTES DE QUERER SUBIR ALGO (push) TENER SIEMPRE EL PULL)
+git pull
+git push 
+
+#Te menciona los ultimos cambios hechos en el repositorio
+git log
+git log -n2 *numero a la n
+
+#Es para ver los hilos activos
+git branch

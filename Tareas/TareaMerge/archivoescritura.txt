@@ -1,0 +1,5 @@
+El producto: 15 ha generado 2700 ingresos con 90 ventas
+El producto: 18 ha generado 1200 ingresos con 30 ventas
+El producto: 22 ha generado 3000 ingresos con 60 ventas
+El producto: 40 ha generado 1180 ingresos con 85 ventas
+El final de todos los productos ha generado 8080 ingresos con 265 ventas

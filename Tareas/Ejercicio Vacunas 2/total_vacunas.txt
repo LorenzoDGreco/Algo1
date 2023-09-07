@@ -1,0 +1,8 @@
+Las vacunas dadas en Buenos Aires en el Hospital de Infecciosas Francisco Javier Muniz son 64564
+Las vacunas dadas en Buenos Aires en el Previvax son 122162
+Las vacunas dadas en Buenos Aires en el Tecnopolis son 61958
+El total de las vacunas en Buenos Aires fue de 248684
+Las vacunas dadas en Cordoba en el Centro de salud N22 son 76995
+Las vacunas dadas en Cordoba en el Provac son 67532
+El total de las vacunas en Cordoba fue de 144527
+El total de vacunas dadas en Argentina fue de 393211

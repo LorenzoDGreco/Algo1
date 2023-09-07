@@ -1,0 +1,35 @@
+# Constantes de texto
+COLOR_DE_LETRAS_PRINCIPAL = "lightyellow"
+COLOR_DE_FONDO_DE_BOTONES = "grey"
+COLOR_DE_FONDO_DE_VENTANAS = "grey"
+COLOR_DE_FONDO_DE_CASILLAS_DE_TEXTO = "grey"
+COLOR_DE_FONDO_DE_ETIQUETAS = "grey"
+TIPO_TEXTO_DE_FUENTE = "Calibri"
+TIPO_DE_BORDE_DE_BOTONES = "ridge"
+TIPO_DE_CURSOR_SOBRE_BOTONES = "hand2"
+TIPO_DE_CURSOR_BOTON_CANCELAR = "pirate"
+LETRAS_ACENTUADAS = "áéíúóý"
+REGISTROS_DE_CUENTAS = "textos\\registro_cuentas\\registro_de_cuentas.csv"
+MENSAJE_CONTRASENIA_INCORRECTA = "Contraseña incorrecta."
+MENSAJE_ERROR_INGRESO = "Usuario inexistente.\nPor favor regístrese."
+MENSAJE_MAXIMO_INGRESO = "Se han ingresado la cantidad máxima de jugadores!"
+MENSAJE_CERRAR = "¿Está seguro que quiere cerrar la ventana?"
+VENTANA_EMERGENTE_SALIR = "Salir"
+MENSAJE_NOMBRE_INVALIDO = "No es un usuario válido."
+MENSAJE_CONTRASENIA_INVALIDA = "No es una contraseña válida."
+MENSAJE_CONTRASENIAS_DESIGUALES = "Las contraseñas no coinciden."
+IMAGEN_JUEGO="imagenes\\ahorcado.png"
+IMAGEN_GRUPO="imagenes\\imagen_revelacion_definitiva.png"
+
+# Constantes enteras
+TAMANIO_DE_FUENTE = 14
+FUENTE = (TIPO_TEXTO_DE_FUENTE, TAMANIO_DE_FUENTE)
+MARGEN_Y = 200
+MARGEN_X = 200
+SEPARACION_DE_ACCESORIOS = 5
+GROSOR_DE_BORDE_BOTONES = 2
+ANCHO_BOTON = 25
+CANTIDAD_MIN_CARACTERES_CONTRASENIA = 8
+CANTIDAD_MAX_CARACTERES_CONTRASENIA = 12
+CANTIDAD_MIN_CARACTERES_USUARIO = 4
+CANTIDAD_MAX_CARACTERES_USUARIO = 15

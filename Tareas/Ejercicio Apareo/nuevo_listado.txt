@@ -1,0 +1,5 @@
+123 Juan 65000
+Error: La letra R es invalida en el usuario Sanchez
+190 Pedro 8520
+207 Sonia 65322
+222 Noelia 55000
